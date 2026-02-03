@@ -84,12 +84,18 @@ html
             +social_icon('rss', "", "fa-rss")
 
           .footer
-            = ' '
-            a(rel='license' href='https://creativecommons.org/licenses/by-sa/4.0/') CC BY-SA
-            = '. Powered by '
+            = 'Licence: '
+            a(rel='license' href='https://creativecommons.org/licenses/by-sa/4.0/') 
+                img(
+				  src='cc-by-sa.png'
+				  alt='CC BY-SA 4.0'
+				  title='CC BY-SA 4.0'
+				  style='vertical-align: text-bottom;'
+				)
+            = ' Powered by '
             a(rel='nofollow', target='_blank', href='https://hexo.io') Hexo
             = '. Theme '
-            a(target='_blank', href='https://github.com/lotabout/very-simple') very-simple
+            a(target='_blank', href='https://github.com/stumpy-lizard/very-simple') very-simple
             |.
 
     if theme.fancybox
